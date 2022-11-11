@@ -15,13 +15,10 @@ public class ArtikYil {
         if(kalan1==0){
             System.out.println("girdiğiniz "+yil+" yılı artık yıldır");
         } else if(kalan==0 && ((kalan1%100)==0)){
-
-            System.out.println("girdiğiniz "+yil+" yılı artık yıl değildir");
-
-        } else{
-
-            System.out.println("girdiğiniz "+yil+" yılı artık yıldır");
-        }
+             System.out.println("girdiğiniz "+yil+" yılı artık yıl değildir");
+          } else{
+             System.out.println("girdiğiniz "+yil+" yılı artık yıldır");
+          }
 
 
             System.out.println("işlem tekrar etsinmi 1 or 2");
